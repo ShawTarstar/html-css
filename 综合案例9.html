@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    li{
+        list-style: none;
+    }
+    div{
+        margin: 50px auto;
+        width: 350px;
+        height: 250px;
+        /* background-color: #f5f5ef; */
+    }
+    div .topButton{
+        margin: 0px 0px;
+        height: 40px;
+        background-color: #f1f1f1;
+        border: 1px solid #dbdee1;
+        border-left: none;
+    }
+    div div .top{
+        display: block;
+        width: 60px;
+        height: 39px;
+        color: black;
+        /* height: 30px; */
+        font-weight: 400;
+        text-align: center;
+        line-height: 35px;
+        border-right: 1px solid #dbdee1;
+        border-bottom: 1px solid #dbdee1;
+        background-color: #fff;
+        border-top: 5px solid orange ;
+    }
+    div .newsTitle{
+        margin: 0px 0px;
+        padding: 10px;
+
+    }
+    div .newsTitle li{
+        background-image: url(./images/day5/square.png);
+        background-repeat: no-repeat;
+        background-position: left center;
+        padding-left: 15px;
+    }
+    div .newsTitle a{
+        font-size: 12px;
+        line-height: 25px;
+        background-image: url(./images/day5/img.gif);
+        background-repeat: no-repeat;
+        background-position: left center;
+        color: darkgray;
+        padding-left: 20px;
+    }
+    div .newsTitle a:hover{
+        color: orange;
+    }
+</style>
+<body>
+    <div>
+        <div class="topButton">
+            <a href="#" class="top">新闻</a>
+        </div>
+        <div class="newsTitle">
+            <ul>
+                <li><a href="#">点赞“新农人” 温暖的伸手</a></li>
+                <li><a href="#">在希望的田野上...</a></li>
+                <li><a href="#">“中国天眼”又有新发现 已在《自然》杂志发表</a></li>
+                <li><a href="#">急！这个领域，缺人！月薪4万元还不好招！啥情况？</a></li>
+                <li><a href="#">G9“带货”背后：亏损面持续扩大，竞争环境激烈</a></li>
+                <li><a href="#">多地力推二手房“带押过户”，有什么好处？</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
